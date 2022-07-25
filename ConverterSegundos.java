@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ConverterSegundos {
     
     public static void main(String[] args) {
@@ -20,18 +21,23 @@ public class ConverterSegundos {
             segundos = sc.nextDouble();
     
             // Cálculos
-            horas = segundos / 3600;
             minutos = segundos / 60;
+            horas = segundos / 3600;
     
             System.out.println("");
             System.out.println(segundos + " segundos é equivalente a: ");
-    
-            System.out.println("\nHoras: " + horas + " h");
-            System.out.println("Minutos: " + minutos + " min");
+
+            System.out.println("\nMinutos: " + minutos + " min");
+            System.out.println("Horas: " + horas + " h");
+            
             } 
             else if (opcao == 2) {
                 System.out.println("\nSaindo...");
                 System.exit(0);
+            }
+
+            else {
+                System.out.println("\nOpção inválida. Por favor, digite apenas 1 ou 2.");
             }
         }
 
