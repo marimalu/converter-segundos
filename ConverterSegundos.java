@@ -11,7 +11,7 @@ public class ConverterSegundos {
         int opcao;
 
         do {
-            System.err.println("\nBoas-vindas ao Converter Segundos!" + "\n" + "Selecione uma das opções abaixo:" );
+            System.out.println("\nBoas-vindas ao Converter Segundos!" + "\n" + "Selecione uma das opções abaixo:" );
             System.out.println("\n--------------------------------");
             System.out.println("1 - Converter Segundos\n2 - Sair");
             opcao = sc.nextInt();
@@ -27,7 +27,7 @@ public class ConverterSegundos {
             System.out.println("");
             System.out.println(segundos + " segundos é equivalente a: ");
 
-            System.out.println("\nMinutos: " + minutos + " min");
+            System.out.println("Minutos: " + minutos + " min");
             System.out.println("Horas: " + horas + " h");
             
             } 
